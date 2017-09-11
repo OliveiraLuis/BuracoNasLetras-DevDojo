@@ -41,4 +41,9 @@ public class BuracoNasLetrasTest {
 		int resposta = BuracoNasLetras.numBuracos("BUNDA");
 		assertEquals(4, resposta); 
 	}
+	@Test
+	public void testLUISEDUARDOOLIVEIRA() {
+		int resposta = BuracoNasLetras.numBuracos("LUIS EDUARDO OLIVEIRA");
+		assertEquals(8, resposta); 
+	}
 }
