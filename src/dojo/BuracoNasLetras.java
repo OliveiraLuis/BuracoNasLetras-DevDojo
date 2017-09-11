@@ -13,7 +13,7 @@ public class BuracoNasLetras {
 	public static int numBuracoLetra(char letra) {
 		int resposta = 0;
 		
-		if(
+		if( 
 			(letra == 'A') || (letra == 'D') ||
 			(letra == 'O') || (letra == 'P') ||
 			(letra == 'Q') || (letra == 'R')
