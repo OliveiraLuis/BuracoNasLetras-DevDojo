@@ -36,4 +36,9 @@ public class BuracoNasLetrasTest {
 		int resposta = BuracoNasLetras.numBuracos("F");
 		assertEquals(0, resposta); 
 	}
+	@Test
+	public void testBunda() {
+		int resposta = BuracoNasLetras.numBuracos("BUNDA");
+		assertEquals(4, resposta); 
+	}
 }

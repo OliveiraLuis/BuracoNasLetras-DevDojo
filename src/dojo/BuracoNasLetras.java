@@ -19,7 +19,7 @@ public class BuracoNasLetras {
 			(letra == 'Q') || (letra == 'R')
 		  ) {
 			resposta = 1;
-		}else if(letra == 'B') {
+		}else if(letra == 'B') { 
 			resposta = 2;
 		}else {
 			resposta = 0;
