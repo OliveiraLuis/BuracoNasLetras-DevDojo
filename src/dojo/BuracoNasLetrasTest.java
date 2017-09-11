@@ -7,8 +7,9 @@ import org.junit.Test;
 public class BuracoNasLetrasTest {
 
 	@Test
-	public void test() {
-		fail("Not yet implemented");
+	public void testA() {
+		int resposta = BuracoNasLetras.numBuracos("A");
+		assertEquals(1, resposta); 
 	}
 
 }
